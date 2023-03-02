@@ -74,4 +74,4 @@ const char principal[] = R"=====(
 </html>
 )=====";
 
-char principal2[sizeof(principal) + sizeof(MAC) + sizeof(POST_PATH)] = {};
+char principal2[sizeof(principal)/sizeof(principal[0]) + sizeof(MAC)/sizeof(MAC[0]) + sizeof(POST_PATH)/sizeof(POST_PATH[0]) + 30] = {};
