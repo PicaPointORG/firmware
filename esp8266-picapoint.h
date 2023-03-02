@@ -13,20 +13,8 @@ struct structAPs {
 */
 const structAPs APs[] = {
   {
-    .ssid = "MAMAGUEVO",
-    .pwd = "comando5",
-  },
-  {
-    .ssid = "sagemcomF958",
-    .pwd = "RWM3KTM3QMMWQ2",
-  },
-  {
-    .ssid = "Realme GT Master Edition",
-    .pwd = "1234567890",
-  },
-  {
-    .ssid = "Redmi Note 10S",
-    .pwd = "ezfbtbkfvw4qups",
+    .ssid = "Nombre de una red",
+    .pwd = "Contraseña de una red",
   },
 };
 
